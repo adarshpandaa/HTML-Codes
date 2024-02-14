@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Supermarket Registration</title>
+</head>
+<body background="C:\Users\adars\OneDrive\Pictures\Saved Pictures\supermarket-pic.webp">
+    
+    <div style="max-width: 500px;height: 600px; margin: 50px ; padding: 20px; background-color: whitesmoke; border:2px solid;border-radius:5px">
+        <h1 style="text-align: center; margin-bottom: 20px;"><u><b>Register for Online Supermarket</b></u></h1>
+        <form action="registration.html" method="POST">
+            <input type="text" name="username" placeholder="Username" style="width: 80%; padding: 10px;margin-top: 20px; margin-bottom: 20px; border: 1px solid black; border-radius: 4px;" required>
+            <input type="password" name="password" placeholder="Password" style="width: 80%; padding: 10px; margin-bottom: 20px; border: 1px solid black; border-radius: 4px;" required>
+            <input type="text" name="name" placeholder="Name" style="width: 80%; padding: 10px; margin-bottom: 20px; border: 1px solid black; border-radius: 4px;" required><br><br>
+            
+            <textarea name="address" placeholder="Address" style="width: 80%; padding: 10px; margin-bottom: 20px; border: 1px solid black; border-radius: 4px;" required></textarea><br><br>
+            <label for="gender" align="left">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="Other" name="gender" value="other">
+            <label for="other">Other</label><br><br><br>
+            <label for="city">City:</label>
+            <select name="city" id="city" style="width: 77%; padding: 10px; margin-bottom: 20px; border: 1px solid black; border-radius: 4px;" required>
+                <option value="" selected disabled>Select City</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Other">Other</option>
+            </select>
+            
+            <input type="submit" value="Submit" style="width: 40%; padding: 10px; background-color: blue; border: 2px solid black; border-radius: 4px; color: white;">
+            <input type="reset" value="Reset" style="width: 40%; padding: 10px; background-color: blue; border: 2px soild black; border-radius: 4px; color: white; margin-top: 10px;">
+        </form>
+    </div>
+
+</body>
+</html>
